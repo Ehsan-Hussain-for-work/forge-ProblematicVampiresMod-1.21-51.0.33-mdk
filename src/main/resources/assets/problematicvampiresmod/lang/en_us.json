@@ -1,4 +1,8 @@
 {
   "item.problematicvampiresmod.sunstone": "Sunstone",
-  "item.problematicvampiresmod.sunstone_dust": "Sunstone Dust"
+  "item.problematicvampiresmod.sunstone_dust": "Sunstone Dust",
+
+  "item.problematicvampiresmod.bloodstone": "Bloodstone",
+  "item.problematicvampiresmod.raw_bloodstone": "Raw Bloodstone",
+  "item.problematicvampiresmod.bloodstone_nugget": "Bloodstone Nugget"
 }

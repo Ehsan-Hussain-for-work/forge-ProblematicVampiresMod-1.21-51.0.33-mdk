@@ -48,6 +48,10 @@ public class ProblematicVampiresMod {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.SUNSTONE);
             event.accept(ModItems.SUNSTONE_DUST);
+
+            event.accept(ModItems.BLOODSTONE);
+            event.accept(ModItems.RAW_BLOODSTONE);
+            event.accept(ModItems.BLOODSTONE_NUGGET);
         }
     }
 
