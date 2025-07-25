@@ -14,6 +14,7 @@ import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.nashe.problematicvampiresmod.block.ModBlocks;
 import net.nashe.problematicvampiresmod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -32,6 +33,7 @@ public class ProblematicVampiresMod {
         MinecraftForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -49,9 +51,15 @@ public class ProblematicVampiresMod {
             event.accept(ModItems.SUNSTONE);
             event.accept(ModItems.SUNSTONE_DUST);
 
-            event.accept(ModItems.BLOODSTONE);
-            event.accept(ModItems.RAW_BLOODSTONE);
+            event.accept(ModItems.PURE_BLOODSTONE);
+            event.accept(ModItems.IMPURE_BLOODSTONE);
             event.accept(ModItems.BLOODSTONE_NUGGET);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
+            event.accept(ModBlocks.SUNSTONE_BLOCK);
+            event.accept(ModBlocks.PURE_BLOODSTONE_BLOCK);
+            event.accept(ModBlocks.IMPURE_BLOODSTONE_BLOCK);
         }
     }
 
