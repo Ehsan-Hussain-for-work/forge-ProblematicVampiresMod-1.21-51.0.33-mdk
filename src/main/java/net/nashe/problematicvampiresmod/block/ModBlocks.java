@@ -20,19 +20,19 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> SUNSTONE_BLOCK = registerBlock("sunstone_block",
             () -> new Block(
-                    BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)
+                    BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.COPPER_BULB)
             )
     );
 
     public static final RegistryObject<Block> PURE_BLOODSTONE_BLOCK = registerBlock("pure_bloodstone_block",
             () -> new Block(
-                    BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)
+                    BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops()
             )
     );
 
     public static final RegistryObject<Block> IMPURE_BLOODSTONE_BLOCK = registerBlock("impure_bloodstone_block",
             () -> new Block(
-                    BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()
+                    BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.SOUL_SOIL)
             )
     );
 

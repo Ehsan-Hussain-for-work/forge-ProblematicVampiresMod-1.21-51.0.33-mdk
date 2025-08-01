@@ -32,6 +32,8 @@ public class ProblematicVampiresMod {
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
@@ -48,18 +50,18 @@ public class ProblematicVampiresMod {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.SUNSTONE);
             event.accept(ModItems.SUNSTONE_DUST);
+            event.accept(ModItems.SUNSTONE);
 
-            event.accept(ModItems.PURE_BLOODSTONE);
-            event.accept(ModItems.IMPURE_BLOODSTONE);
             event.accept(ModItems.BLOODSTONE_NUGGET);
+            event.accept(ModItems.IMPURE_BLOODSTONE);
+            event.accept(ModItems.PURE_BLOODSTONE);
         }
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
-            event.accept(ModBlocks.SUNSTONE_BLOCK);
-            event.accept(ModBlocks.PURE_BLOODSTONE_BLOCK);
             event.accept(ModBlocks.IMPURE_BLOODSTONE_BLOCK);
+            event.accept(ModBlocks.PURE_BLOODSTONE_BLOCK);
+            event.accept(ModBlocks.SUNSTONE_BLOCK);
         }
     }
 

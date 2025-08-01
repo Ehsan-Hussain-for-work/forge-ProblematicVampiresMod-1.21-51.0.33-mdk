@@ -8,5 +8,7 @@
 
   "block.problematicvampiresmod.sunstone_block": "Block of Sunstone",
   "block.problematicvampiresmod.pure_bloodstone_block": "Block of Pure Bloodstone",
-  "block.problematicvampiresmod.impure_bloodstone_block": "Block of Impure Bloodstone"
+  "block.problematicvampiresmod.impure_bloodstone_block": "Block of Impure Bloodstone",
+
+  "creativetab.problematicvampiresmod.problematic_vampires_mod": "Problematic Vampires Mod"
 }
