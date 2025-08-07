@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 400,
+  "experience": 0.50,
+  "group": "sunstone",
+  "ingredient": {
+    "item": "problematicvampiresmod:sunstone_dust"
+  },
+  "result": {
+    "id": "problematicvampiresmod:sunstone"
+  }
+}

@@ -29,6 +29,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.PURE_BLOODSTONE_BLOCK.get());
                         output.accept(ModBlocks.SUNSTONE_BLOCK.get());
 
+                        output.accept(ModBlocks.BLOODSTONE_ORE.get());
+                        output.accept(ModBlocks.SUNSTONE_ORE.get());
+                        output.accept(ModBlocks.SUNSTONE_TUFF_ORE.get());
                     }).build()
     );
 

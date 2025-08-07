@@ -10,5 +10,9 @@
   "block.problematicvampiresmod.pure_bloodstone_block": "Block of Pure Bloodstone",
   "block.problematicvampiresmod.impure_bloodstone_block": "Block of Impure Bloodstone",
 
+  "block.problematicvampiresmod.sunstone_ore": "Sunstone Ore",
+  "block.problematicvampiresmod.sunstone_tuff_ore": "Sunstone Tuff Ore",
+  "block.problematicvampiresmod.bloodstone_ore": "Bloodstone Ore",
+
   "creativetab.problematicvampiresmod.problematic_vampires_mod": "Problematic Vampires Mod"
 }

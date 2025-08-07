@@ -1,8 +1,10 @@
 package net.nashe.problematicvampiresmod.block;
 
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -33,6 +35,25 @@ public class ModBlocks {
     public static final RegistryObject<Block> IMPURE_BLOODSTONE_BLOCK = registerBlock("impure_bloodstone_block",
             () -> new Block(
                     BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.SOUL_SOIL)
+            )
+    );
+
+
+    public static final RegistryObject<Block> SUNSTONE_ORE = registerBlock("sunstone_ore",
+            () -> new DropExperienceBlock(UniformInt.of(2,4),BlockBehaviour.Properties.of()
+                    .strength(5f).requiresCorrectToolForDrops()
+            )
+    );
+
+    public static final RegistryObject<Block> SUNSTONE_TUFF_ORE = registerBlock("sunstone_tuff_ore",
+            () -> new DropExperienceBlock(UniformInt.of(3,6),BlockBehaviour.Properties.of()
+                    .strength(6f).requiresCorrectToolForDrops().sound(SoundType.TUFF)
+            )
+    );
+
+    public static final RegistryObject<Block> BLOODSTONE_ORE = registerBlock("bloodstone_ore",
+            () -> new DropExperienceBlock(UniformInt.of(2,4),BlockBehaviour.Properties.of()
+                    .strength(5f).requiresCorrectToolForDrops().sound(SoundType.NETHER_ORE)
             )
     );
 

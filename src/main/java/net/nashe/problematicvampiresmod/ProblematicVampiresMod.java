@@ -63,6 +63,12 @@ public class ProblematicVampiresMod {
             event.accept(ModBlocks.PURE_BLOODSTONE_BLOCK);
             event.accept(ModBlocks.SUNSTONE_BLOCK);
         }
+
+        if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS){
+            event.accept(ModBlocks.BLOODSTONE_ORE);
+            event.accept(ModBlocks.SUNSTONE_ORE);
+            event.accept(ModBlocks.SUNSTONE_TUFF_ORE);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "problematicvampiresmod:sunstone_block",
+    "problematicvampiresmod:impure_bloodstone_block",
+    "problematicvampiresmod:pure_bloodstone_block",
+    "problematicvampiresmod:bloodstone_ore"
+  ]
+}
