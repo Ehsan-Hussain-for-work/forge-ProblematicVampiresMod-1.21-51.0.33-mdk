@@ -2,8 +2,7 @@
   "replace": false,
   "values": [
     "problematicvampiresmod:sunstone_block",
-    "problematicvampiresmod:impure_bloodstone_block",
-    "problematicvampiresmod:pure_bloodstone_block",
+    "problematicvampiresmod:bloodstone_block",
     "problematicvampiresmod:sunstone_ore",
     "problematicvampiresmod:sunstone_tuff_ore",
     "problematicvampiresmod:bloodstone_ore"

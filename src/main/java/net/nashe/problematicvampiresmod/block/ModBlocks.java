@@ -26,17 +26,12 @@ public class ModBlocks {
             )
     );
 
-    public static final RegistryObject<Block> PURE_BLOODSTONE_BLOCK = registerBlock("pure_bloodstone_block",
+    public static final RegistryObject<Block> BLOODSTONE_BLOCK = registerBlock("bloodstone_block",
             () -> new Block(
                     BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops()
             )
     );
 
-    public static final RegistryObject<Block> IMPURE_BLOODSTONE_BLOCK = registerBlock("impure_bloodstone_block",
-            () -> new Block(
-                    BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.SOUL_SOIL)
-            )
-    );
 
 
     public static final RegistryObject<Block> SUNSTONE_ORE = registerBlock("sunstone_ore",

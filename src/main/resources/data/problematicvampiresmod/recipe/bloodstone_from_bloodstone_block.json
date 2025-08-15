@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "problematicvampiresmod:pure_bloodstone_block"
+      "item": "problematicvampiresmod:bloodstone_block"
     }
   ],
   "result": {
     "count": 9,
-    "id": "problematicvampiresmod:pure_bloodstone"
+    "id": "problematicvampiresmod:bloodstone"
   }
 }

@@ -14,8 +14,7 @@ public class ModItems {
     public static final RegistryObject<Item> SUNSTONE = ITEMS.register("sunstone", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> SUNSTONE_DUST = ITEMS.register("sunstone_dust", () -> new Item(new Item.Properties()));
 
-    public static final RegistryObject<Item> PURE_BLOODSTONE = ITEMS.register("pure_bloodstone", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> IMPURE_BLOODSTONE = ITEMS.register("impure_bloodstone", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BLOODSTONE = ITEMS.register("bloodstone", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BLOODSTONE_NUGGET = ITEMS.register("bloodstone_nugget", () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {

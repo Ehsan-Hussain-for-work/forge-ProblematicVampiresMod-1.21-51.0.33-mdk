@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "problematicvampiresmod:item/impure_bloodstone"
+    "layer0": "problematicvampiresmod:item/bloodstone"
   }
 }

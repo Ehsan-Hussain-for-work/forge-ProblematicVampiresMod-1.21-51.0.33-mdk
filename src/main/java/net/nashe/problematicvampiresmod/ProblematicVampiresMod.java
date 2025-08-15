@@ -54,13 +54,11 @@ public class ProblematicVampiresMod {
             event.accept(ModItems.SUNSTONE);
 
             event.accept(ModItems.BLOODSTONE_NUGGET);
-            event.accept(ModItems.IMPURE_BLOODSTONE);
-            event.accept(ModItems.PURE_BLOODSTONE);
+            event.accept(ModItems.BLOODSTONE);
         }
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
-            event.accept(ModBlocks.IMPURE_BLOODSTONE_BLOCK);
-            event.accept(ModBlocks.PURE_BLOODSTONE_BLOCK);
+            event.accept(ModBlocks.BLOODSTONE_BLOCK);
             event.accept(ModBlocks.SUNSTONE_BLOCK);
         }
 

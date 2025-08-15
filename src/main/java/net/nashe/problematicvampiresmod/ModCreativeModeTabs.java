@@ -15,18 +15,16 @@ public class ModCreativeModeTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, ProblematicVampiresMod.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> PROBLEMATIC_VAMPIRES_MOD_TAB = CREATIVE_MODE_TABES.register("problematic_vampires_mod_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.IMPURE_BLOODSTONE.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.BLOODSTONE.get()))
                     .title(Component.translatable("creativetab.problematicvampiresmod.problematic_vampires_mod"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.BLOODSTONE_NUGGET.get());
-                        output.accept(ModItems.IMPURE_BLOODSTONE.get());
-                        output.accept(ModItems.PURE_BLOODSTONE.get());
+                        output.accept(ModItems.BLOODSTONE.get());
 
                         output.accept(ModItems.SUNSTONE_DUST.get());
                         output.accept(ModItems.SUNSTONE.get());
 
-                        output.accept(ModBlocks.IMPURE_BLOODSTONE_BLOCK.get());
-                        output.accept(ModBlocks.PURE_BLOODSTONE_BLOCK.get());
+                        output.accept(ModBlocks.BLOODSTONE_BLOCK.get());
                         output.accept(ModBlocks.SUNSTONE_BLOCK.get());
 
                         output.accept(ModBlocks.BLOODSTONE_ORE.get());

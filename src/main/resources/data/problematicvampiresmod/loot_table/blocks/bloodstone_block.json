@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "problematicvampiresmod:pure_bloodstone_block"
+          "name": "problematicvampiresmod:bloodstone_block"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "problematicvampiresmod:blocks/pure_bloodstone_block"
+  "random_sequence": "problematicvampiresmod:blocks/bloodstone_block"
 }

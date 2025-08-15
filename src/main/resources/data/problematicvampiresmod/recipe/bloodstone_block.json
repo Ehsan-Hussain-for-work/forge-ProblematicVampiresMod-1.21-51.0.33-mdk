@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "A": {
-      "item": "problematicvampiresmod:pure_bloodstone"
+      "item": "problematicvampiresmod:bloodstone"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "problematicvampiresmod:pure_bloodstone_block"
+    "id": "problematicvampiresmod:bloodstone_block"
   }
 }
