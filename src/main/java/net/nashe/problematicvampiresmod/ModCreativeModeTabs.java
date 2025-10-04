@@ -30,6 +30,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.BLOODSTONE_ORE.get());
                         output.accept(ModBlocks.SUNSTONE_ORE.get());
                         output.accept(ModBlocks.SUNSTONE_TUFF_ORE.get());
+
+                        output.accept(ModItems.PURIFICATION_SALT.get());
                     }).build()
     );
 
