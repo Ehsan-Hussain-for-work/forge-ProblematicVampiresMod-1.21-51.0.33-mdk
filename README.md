@@ -1,3 +1,3 @@
 # forge-ProblematicVampiresMod-1.21-51.0.33-mdk
-A Minecraft forge mod about vampires for version 1.21.
-This is the very first mod that I have made. If it's problematic, I do apologize.
+A Minecraft fabric mod about unfair fantasy creatures for version 1.21.
+First time making a mod. If it's problematic, I do apologize.
