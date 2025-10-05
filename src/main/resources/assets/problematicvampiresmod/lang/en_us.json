@@ -1,0 +1,18 @@
+{
+  "item.problematicvampiresmod.sunstone": "Sunstone",
+  "item.problematicvampiresmod.sunstone_dust": "Sunstone Dust",
+
+  "item.problematicvampiresmod.purification_salt": "Purification Salt",
+
+  "item.problematicvampiresmod.bloodstone": "Bloodstone",
+  "item.problematicvampiresmod.bloodstone_nugget": "Bloodstone Nugget",
+
+  "block.problematicvampiresmod.sunstone_block": "Block of Sunstone",
+  "block.problematicvampiresmod.bloodstone_block": "Block of Bloodstone",
+
+  "block.problematicvampiresmod.sunstone_ore": "Sunstone Ore",
+  "block.problematicvampiresmod.sunstone_tuff_ore": "Sunstone Tuff Ore",
+  "block.problematicvampiresmod.bloodstone_ore": "Bloodstone Ore",
+
+  "creativetab.problematicvampiresmod.problematic_vampires_mod": "Problematic Vampires Mod"
+}
